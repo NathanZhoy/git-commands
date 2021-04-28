@@ -1,6 +1,6 @@
 # git-commands
 
-#git常用命令
+# git常用命令
 
 git init #初始化git仓库
 git status #查看当前状态（是否有修改）
@@ -19,15 +19,19 @@ git checkout <name> #切换分支
 git checkout -b <name> #创建分支并且切换到该分支
 git pull <remote-alias> <branch-name>#拉取远程<remote-alias>的<branch-name>分支
 
+## 推送命令
 git push --set-upstream origin master #（没有追踪的情况下{连接模式#6实现追踪}）推送并且追踪远程分支master
+
 git push origin HEAD:main #当本地分支与追踪的远程分支名字不相同时，推送到远程main分支，推送到远程main分支
+
 git push origin HEAD:main #当本地分支与追踪的远程分支名字不相同时，推送远程相同分支，不存在则建立远程分支，推送到远程main分支
+
 git push #当本地分支与追踪的远程分支名字相同时，推送到远程对应分支
 
 
-#git通用步骤
+# git通用步骤
 
-##获取一个仓库（克隆模式）
+## 获取一个仓库（克隆模式）
 
 1、在本地新建一个文件夹
 
@@ -44,7 +48,7 @@ git clone <url>
 
 3、这个时候本地仓库就和远程仓库一模一样，并且分支也是对应的
 
-##获取一个仓库（链接模式）
+## 获取一个仓库（链接模式）
 
 1、在本地新建一个文件夹
 
