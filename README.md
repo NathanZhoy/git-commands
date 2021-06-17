@@ -1,7 +1,7 @@
 # git-commands
 
 # git常用命令
-
+```shell
 git init #初始化git仓库
 git status #查看当前状态（是否有修改）
 git add -A #天添加全部修改的文件
@@ -28,7 +28,7 @@ git push origin HEAD:main #当本地分支与追踪的远程分支名字不相�
 git push origin HEAD:main #当本地分支与追踪的远程分支名字不相同时，推送远程相同分支，不存在则建立远程分支，推送到远程main分支
 
 git push #当本地分支与追踪的远程分支名字相同时，推送到远程对应分支
-
+```
 
 # git通用步骤
 
