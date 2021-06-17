@@ -7,6 +7,7 @@ git status #查看当前状态（是否有修改）
 git add -A #天添加全部修改的文件
 git commit -m "<msg>" #提交 msg=描述本次提交的信息
 git push #推送修改到远程
+git push origin branch-name:remote-name #将本地分支branch-name提交到远程别名为origin的remote-name
 
 git stash save "msg" #暂时保存当前修改并回到修改前 msg=描述暂存的信息
 git stash list #查看暂存列表本次
