@@ -28,6 +28,14 @@ git push origin HEAD:main #当本地分支与追踪的远程分支名字不相�
 git push origin HEAD:main #当本地分支与追踪的远程分支名字不相同时，推送远程相同分支，不存在则建立远程分支，推送到远程main分支
 
 git push #当本地分支与追踪的远程分支名字相同时，推送到远程对应分支
+
+##修改近期提交过的commit方法
+git rebase -i HEAD~n #n代表要修改的最近提交次数
+
+##然后在打开的文件内，把要修改的次数由pack给为edit
+##然后保存，然后进行修改，使用git commit --amend保存
+##修改满意之后，使用git rebase --continue恢复
+
 ```
 
 # git通用步骤
